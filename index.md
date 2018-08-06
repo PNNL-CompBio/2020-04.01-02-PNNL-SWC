@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
+venue: "Pacific Northwest National Laboratory"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Vista Room, Discovery Hall, Building 3400, Richland WA"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "46.3513347,-119.2783712"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "Aug 22-23, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-08-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-08-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Kathe Todd-Brown","Carlos Ortiz-Marrero", "Kyle Monson" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Jeremy Zucker"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["jeremy.zucker@pnnl.gov"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes:       http://pad.software-carpentry.org/2018-08-22-PNNL-SWC      # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -41,15 +41,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="280px"
+  height="248px"
   scrolling="auto">
 </iframe>
 {% endif %}
-
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -80,6 +75,8 @@ and our administrator may contact you if we need any extra information.</h4>
 {% elsif page.carpentry == "lc" %}
   {% include lc/who.html %}
 {% endif %}
+
+
 
 {% comment %}
   LOCATION
@@ -182,22 +179,44 @@ and our administrator may contact you if we need any extra information.</h4>
   for more information.
 </p>
 
+
+<h2 id="register">Registration</h2>
+
+
+To register for this workshop, go to your PNNL training page at <a href="https://elm.pnl.gov">https://elm.pnl.gov</a>, and select the "Self-enroll tab" in the upper right-hand corner.
+Next, find the Software carpentry workshop and click enroll.
+<p>
+<img src="assets/img/self-enroll-1.jpg" alt="Self-enroll-1">
+</p>
+<p>
+
+Once you have enrolled, click on the "Pending" tab and enter a work package number under  "charge code" to cover the $451.55 cost of the course.
+</p>
+<p>
+<img src="assets/img/pending-wp.jpg" alt="pending">
+</p>
+<p>
+Lastly, you should receive an email confirming your enrollment.  If you did not enter a charge code, you will still be registered for the course, but a Training Coordinator will contact you before the course starts to obtain a charge code.
+</p>
+<p><img src="assets/img/confirmation-email.png">
+</p>
 <hr/>
 
 {% comment %} 
  SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
+
+{% if page.carpentry == "swc" %} 
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
+{% elsif page.carpentry == "dc" %}
+  <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+{% elsif page.carpentry == "lc" %}
+<p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
 <hr/>
@@ -610,7 +629,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -630,7 +649,7 @@ and our administrator may contact you if we need any extra information.</h4>
         <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
         Note that if you have separate user and admin accounts, you should run the 
         installers as administrator (right-click on .exe file and select "Run as 
         administrator" instead of double-clicking). Otherwise problems may occur later, 
@@ -645,7 +664,7 @@ and our administrator may contact you if we need any extra information.</h4>
         <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -656,12 +675,13 @@ and our administrator may contact you if we need any extra information.</h4>
         you can use your package manager (e.g. for Debian/Ubuntu
         run <code>sudo apt-get install r-base</code> and for Fedora run
         <code>sudo dnf install R</code>).  Also, please install the
-        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
       </p>
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
-
+-->
+<!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -707,7 +727,8 @@ and our administrator may contact you if we need any extra information.</h4>
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
-
+-->
+<!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -754,8 +775,9 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+-->
 {% comment %}
+<!--
 <div id="vm">
   <h3>Virtual Machine</h3>
 
@@ -780,3 +802,4 @@ and our administrator may contact you if we need any extra information.</h4>
   </ol>
 </div>
 {% endcomment %}
+-->
