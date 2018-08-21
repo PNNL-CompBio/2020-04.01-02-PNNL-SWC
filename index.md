@@ -182,8 +182,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="register">Registration</h2>
 
-
-To register for this workshop, go to your PNNL training page at <a href="https://elm.pnl.gov">https://elm.pnl.gov</a>, and select the "Self-enroll tab" in the upper right-hand corner.
+We have transitioned to a sustainable model that will enable us to train new instructors, pay the instructors we have, offer a larger variety of workshops and ultimately one day provide snacks during the workshop. Therefore, we now charge $451.55 for the two day workshop.
+To register, go to your PNNL training page at <a href="https://elm.pnl.gov">https://elm.pnl.gov</a>, and select the "Self-enroll tab" in the upper right-hand corner.
 Next, find the Software carpentry workshop and click enroll.
 <p>
 <img src="assets/img/self-enroll-1.jpg" alt="Self-enroll-1">
