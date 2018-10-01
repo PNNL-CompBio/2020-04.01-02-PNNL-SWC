@@ -182,7 +182,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="register">Registration</h2>
 
-We have transitioned to a sustainable model that will enable us to train new instructors, pay the instructors we have, offer a larger variety of workshops and ultimately one day provide snacks during the workshop. Therefore, we now charge $452.05 for the two day workshop.
+We have transitioned to a sustainable model that will enable us to train new instructors, pay the instructors we have, offer a larger variety of workshops and ultimately <a href="provide snacks during the workshop. Therefore, we now charge $452.05 for the two day workshop.  Please work with your manager if funding is of concern.
 To register, go to your PNNL training page at <a href="https://elm.pnl.gov">https://elm.pnl.gov</a>, and select the "Self-enroll tab" in the upper right-hand corner.
 Next, find the Software carpentry workshop and click enroll.
 <p>
@@ -190,7 +190,7 @@ Next, find the Software carpentry workshop and click enroll.
 </p>
 <p>
 
-Once you have enrolled, click on the "Pending" tab and enter a work package number under  "charge code" to cover the $451.55 cost of the course.
+Once you have enrolled, click on the "Pending" tab and <b>senter a work package number</b> under  "charge code" to cover the $452.05 cost of the course.
 </p>
 <p>
 <img src="assets/img/pending-wp.jpg" alt="pending">
