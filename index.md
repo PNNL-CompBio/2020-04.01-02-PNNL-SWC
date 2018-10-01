@@ -186,7 +186,7 @@ We have transitioned to a sustainable model that will enable us to train new ins
 <p>
 To register and pay for the workshop, follow these four steps: 
 </p><p>
-First go to your PNNL training page at <a href="https://elm.pnl.gov">https://elm.pnl.gov</a>, and select the "Self-enroll tab" in the upper right-hand corner.
+First, go to your PNNL training page at <a href="https://elm.pnl.gov">https://elm.pnl.gov</a>, and select the "Self-enroll tab" in the upper right-hand corner.
 Next, find the Software carpentry workshop and click enroll.
 </p>
 <p>
