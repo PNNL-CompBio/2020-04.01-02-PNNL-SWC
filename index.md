@@ -490,7 +490,7 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
         To install it,
-        download the <a href="{{site.swc_installer}}">
+        download the <a href="https://github.com/swcarpentry/windows-installer">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
@@ -700,7 +700,7 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
       <p>
-        The <a href="{{site.swc_installer}}">
+        The <a href="https://github.com/swcarpentry/windows-installer">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
