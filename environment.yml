@@ -1,0 +1,10 @@
+
+name: python-novice-gapminder
+dependencies:
+        - python==3.6
+        - ipykernel
+        - pandas
+        - matplotlib
+        - ipywidgets
+        - pip:
+          - plotnine
