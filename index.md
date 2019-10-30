@@ -195,7 +195,7 @@ Next, find the Software carpentry workshop and click enroll.
 </p>
 <p>
 
-Once you have enrolled, click on the "Pending" tab and <b>enter a work package number</b> under  "charge code" to cover the $452.05 cost of the course.
+Once you have enrolled, click on the "Pending" tab and <b>enter a work package number</b> under  "charge code" to cover the $394.25 cost of the course.
 </p>
 <p>
 <img src="assets/img/pending-wp.jpg" alt="pending">
