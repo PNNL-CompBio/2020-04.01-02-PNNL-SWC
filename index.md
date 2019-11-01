@@ -331,81 +331,64 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
-  <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="shell-windows">
-        <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-        <ol>
-          <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-          <li>Run the installer and follow the steps below:
-            <ol>
-              {% comment %} Git 2.23.0 Setup {% endcomment %}
-              <li>
-                Click on "Next" four times (two times if you've previously
-                installed Git).  You don't need to change anything
-                in the Information, location, components, and start menu screens.
-              </li>
-              <li>
-                <strong>
-                  From the dropdown menu select "Use the nano editor by default" and click on "Next".
-                </strong>
-              </li>
-              {% comment %} Adjusting your PATH environment {% endcomment %}
-              <li>
-                Ensure that "Git from the command line and also from 3rd-party software" is selected and
-                click on "Next". (If you don't do this Git Bash will not work properly, requiring you to
-                remove the Git Bash installation, re-run the installer and to select the "Git from the
-                command line and also from 3rd-party software" option.)
-              </li>
-              {% comment %} Choosing the SSH executable {% endcomment %}
-              {% comment %} Choosing HTTPS transport backend {% endcomment %}
-              <li>
-		Ensure that "Use the native Windows Secure Channel library" is selected and click on "Next".
-	      </li>
-              {% comment %} This should mean that people stuck behind corporate firewalls that do MITM attacks
-                                 with their own root CA are still able to access remote git repos. {% endcomment %}
-              {% comment %} Configuring the line ending conversions {% endcomment %}
-              <li>
-                Ensure that "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".
-              </li>
-              {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
-              <li>
-                <strong>
-                  Ensure that "Use Windows' default console window" is selected and click on "Next".
-                </strong>
-              </li>
-              {% comment %} Configuring extra options {% endcomment %}
-              <li>
-		Ensure that "Enable file system caching" and "Enable Git Credential Manager" are selected
-		and click on "Next".
-              </li>
-              {% comment %} Configuring experimental options {% endcomment %}
-              <li>Click on "Install".</li>
-              {% comment %} Installing {% endcomment %}
-              {% comment %} Completing the Git Setup Wizard {% endcomment %}
-              <li>Click on "Finish".</li>
-            </ol>
-          </li>
-          <li>
-            If your "HOME" environment variable is not set (or you don't know what this is):
-            <ol>
-              <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
-              <li>
-                Type the following line into the command prompt window exactly as shown:
-                <p><code>setx HOME "%USERPROFILE%"</code></p>
-              </li>
-              <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-              <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
-            </ol>
-          </li>
-          
-          
-          
-          
-        </ol>
-        <p>This will provide you with both Git and Bash in the Git Bash program.</p>
-      </article>
 
-</div>
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="shell-windows">Windows</h4>
+      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      <ol>
+        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
+        <li>Run the installer and follow the steps bellow:
+          <ol>
+            {% comment %} Git 2.8.2 Setup {% endcomment %}
+            {% comment %} Information {% endcomment %}
+            <li>Click on "Next".</li>
+            {% comment %} Select Components {% endcomment %}
+            <li>Click on "Next".</li>
+            {% comment %} Adjusting your PATH environment {% endcomment %}
+            <li>
+              <strong>
+                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
+              </strong>
+                If you forgot to do this programs that you need for the workshop will not work properly.
+                If this happens rerun the installer and select the appropriate option.
+            </li>
+            {% comment %} Choosing the SSH executable {% endcomment %}
+            <li>Click on "Next".</li>
+            {% comment %} Configuring the line ending conversions {% endcomment %}
+            <li>
+              <strong>
+                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+              </strong>
+            </li>
+            {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
+            <li>
+              <strong>
+                Keep "Use Windows' default console window" selected and click on "Next".
+              </strong>
+            </li>
+            {% comment %} Configuring experimental performance tweaks {% endcomment %}
+            <li>Click on "Install".</li>
+            {% comment %} Installing {% endcomment %}
+            {% comment %} Completing the Git Setup Wizard {% endcomment %}
+            <li>Click on "Finish".</li>
+          </ol>
+        </li>
+        <li>
+          If your "HOME" environment variable is not set (or you don't know what this is):
+          <ol>
+            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
+            <li>
+              Type the following line into the command prompt window exactly as shown:
+              <p><code>setx HOME "%USERPROFILE%"</code></p>
+            </li>
+            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
+            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
+          </ol>
+        </li>
+      </ol>
+      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+    </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">macOS</h4>
       <p>
