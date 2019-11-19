@@ -380,7 +380,7 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
 		Ensure that "Enable file system caching" and "Enable Git Credential Manager" are selected
 		and click on "Next".
               </li>
-              {% comment %} Configuring experimental options {% endcomment %}
+               <li> Do **not** click on "Configuring experimental options" </li>
               <li>Click on "Install".</li>
               {% comment %} Installing {% endcomment %}
               {% comment %} Completing the Git Setup Wizard {% endcomment %}
