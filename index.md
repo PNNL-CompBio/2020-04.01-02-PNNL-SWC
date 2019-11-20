@@ -438,21 +438,15 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
     Git is a version control system that lets you track who made changes
     to what when and has options for easily updating a shared or public
     version of your code
-    on <a href="https://github.com/">github.com</a>. You will need a
-    <a href="https://help.github.com/articles/supported-browsers/">supported</a>
-    web browser (current versions of Chrome, Firefox or Safari,
-    or Internet Explorer version 9 or above).
+    on <a href="https://github.com/">github.com</a>, <a href="https://gitlab.com">gitlab.com</a>,
+    <a href="https://gitlab.pnnl.gov">gitlab.pnnl.gov</a>,
+    <a href="https://stash.pnnl.gov">stash.pnnl.gov</a>, or another Git hosting site.
   </p>
   <p>
-    You will need an account at <a href="https://github.com/">github.com</a>
-    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
-    you to create a GitHub account if you don't have one already.
-    Please consider what personal information you'd like to reveal. For
-    example, you may want to review these
-    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
-    for keeping your email address private</a> provided at GitHub.
+    You will need to log into <a href="https://gitlab.pnnl.gov/">gitlab.pnnl.gov</a>
+    for parts of the Git lesson. All PNNL employees have access to this site, but
+    you will need to log in once in order to activate your account.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="git-windows">Windows</h4>
