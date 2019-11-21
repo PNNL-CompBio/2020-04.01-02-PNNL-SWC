@@ -336,6 +336,7 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      (<a href="https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe">SWCarpentryInstaller.exe</a>)
               <ol>
           <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
           <li>Run the installer and follow the steps below:
