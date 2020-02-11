@@ -6,7 +6,7 @@ address: "Vista Room 103, 3400 Discovery Hall, 650 Horn Rapids Road, Richland WA
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "46.3513347,-119.2783712"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Apr 1-4, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Apr 1-2, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-11-21      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-11-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
