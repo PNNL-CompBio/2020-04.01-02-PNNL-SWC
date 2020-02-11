@@ -1,25 +1,4 @@
-Hi Jeremy,
 
-Attached are two sets of synthetic promoters that Ashley (another
-postdoc in our lab) is testing. They are being put in to the AES7
-vector immediately upstream from the Rbcs25'UTR. An eight base pair
-randomer barcode is being added to the 1000 oligos in the pool before
-integration to allow us to de-replicated the illumina reads after we
-recover the clones. The idea is that the barcodes are far more
-numerous than the number of promoters in the library and far, far,
-more numerous than the number of clones recovered after transformation
-and selection. So each unique barcode represent as unique insertion
-event in the pooled illumina sequencing of the transformants.
-
-Pool_1 represents the synthetic promoter library based on the most
-proximal elements found in the genes used in the Anderson et al.
-dataset from our lab.  Pool_2 represents the more distal ones.
-
-Based on how the project is going, Ashley should have a dataset by the
-end of next month for how well the promoters work.
-
-Cheers,
-Anthony
 # workshop-template
 
 This repository is [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
