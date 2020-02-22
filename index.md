@@ -553,7 +553,7 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
-<!--
+
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -646,7 +646,7 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
--->
+<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -697,7 +697,7 @@ Lastly, you should receive an email confirming your enrollment.  If you did not 
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
-
+-->
 <!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
